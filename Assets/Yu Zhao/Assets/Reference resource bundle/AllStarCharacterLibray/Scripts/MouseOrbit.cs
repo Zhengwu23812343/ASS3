@@ -70,7 +70,7 @@ public class MouseOrbit : MonoBehaviour
 void OnGUI()
 	{
 
-		string tempString = "ALT+LMB to orbit,   ALT+RMB to zoom,   ALT+MMB to pan";
+		string tempString = "0-8 Change the corresponding weapon,   Left mouse button walk,   Right mouse button attack";
 		GUI.Label (new Rect (10, 25,1000, 20), tempString);
 	}
 }

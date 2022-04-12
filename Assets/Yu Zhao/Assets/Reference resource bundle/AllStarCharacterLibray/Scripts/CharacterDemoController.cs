@@ -89,24 +89,7 @@ public class CharacterDemoController : MonoBehaviour
 			case "8":
 				WeaponState = 8;//Sword and Shield
 				break;
-			
-			case "p":
-				animator.SetTrigger("Pain");//the animator controller will detect the trigger pain and play the pain animation
-				break;
-			case "a":
-				animator.SetInteger("Death", 1);//the animator controller will detect death=1 and play DeathA
-				break;
-			case "b":
-				animator.SetInteger("Death", 2);//the animator controller will detect death=2 and play DeathB
-				break;
-			case "c":
-				animator.SetInteger("Death", 3);//the animator controller will detect death=3 and play DeathC
-				break;
-			case "n":
-				animator.SetBool("NonCombat", true);//the animator controller will detect this non combat bool, and go into a non combat state "in" this weaponstate
-				break;
-			default:
-				break;
+
 		}
 		
 		animator.SetInteger("WeaponState", WeaponState);// probably would be better to check for change rather than bashing the value in like this
@@ -175,7 +158,7 @@ public class CharacterDemoController : MonoBehaviour
 	
 	void OnGUI()
 	{
-		string tempString = "LMB=move RMB=attack p=pain abc=deaths 12345678 0=change weapons";
+		string tempString = "Look for extra points. Blunt! The warriors!";
 		GUI.Label (new Rect (10, 5,1000, 20), tempString);
 	}
 }
