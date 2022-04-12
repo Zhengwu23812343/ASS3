@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Menu/Scenes/Menu.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
+    path: Assets/Menu/Scenes/Help.unity
+    guid: 0ce4b06ce11ca1e48b4bac6ffe565ea8
+  - enabled: 1
     path: Assets/Yuanzheng Li/Scene/Yuanzheng Li.unity
     guid: f087df3718f8567499fd61ffd421f898
   - enabled: 1
