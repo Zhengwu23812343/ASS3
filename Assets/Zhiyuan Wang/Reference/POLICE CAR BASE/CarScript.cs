@@ -70,5 +70,3 @@ public class CarScript : MonoBehaviour
         }*/
     }
 }
-
-
