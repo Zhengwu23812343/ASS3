@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Zhengwu Deng/Scenes/Zhengwu Deng.unity
     guid: e7d2caec15e89eb47a8547a72cc8bb5a
+  - enabled: 1
+    path: Assets/Yu Zhao/Assets/Scene/Yuzhaoscene.unity
+    guid: 41c899af0ec634e459f07e73c4f2d283
   m_configObjects: {}

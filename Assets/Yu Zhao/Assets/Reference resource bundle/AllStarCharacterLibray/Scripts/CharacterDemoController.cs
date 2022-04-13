@@ -21,7 +21,8 @@ public class CharacterDemoController : MonoBehaviour
 	
 	RaycastHit hit;
 	Ray ray;
-	
+
+	public LayerMask mask;
 	public bool rightButtonDown=false;//we use this to "skip out" of consecutive right mouse down...
 	
 	// Use this for initialization
@@ -161,4 +162,6 @@ public class CharacterDemoController : MonoBehaviour
 		string tempString = "Look for extra points. Blunt! The warriors!";
 		GUI.Label (new Rect (10, 5,1000, 20), tempString);
 	}
+
+	
 }
