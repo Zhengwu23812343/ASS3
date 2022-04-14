@@ -1,5 +1,6 @@
 using UnityEngine;
 
+
 // Include the namespace required to use Unity UI and Input System
 
 using TMPro;
@@ -12,6 +13,7 @@ public class PlayerController : MonoBehaviour
 	public TextMeshProUGUI countText;
 	public GameObject winTextObject;
 
+	public AudioSource _sd;
 
 	private Rigidbody rb;
 	private int count;
@@ -35,8 +37,9 @@ public class PlayerController : MonoBehaviour
 		// ..and if the GameObject you intersect has the tag 'Pick Up' assigned to it..
 		if (other.gameObject.CompareTag("PickUp"))
 		{
+			_sd.Play();
 			other.gameObject.SetActive(false);
-
+			
 			// Add one to the score variable 'count'
 			count = count + 1;
 
@@ -49,10 +52,11 @@ public class PlayerController : MonoBehaviour
 	{
 		countText.text = "Count: " + count.ToString();
 
-		if (count >= 10)
+		if (count >= 11)
 		{
 			// Set the text value of your 'winText'
 			winTextObject.SetActive(true);
+			
 		}
 	}
 }
