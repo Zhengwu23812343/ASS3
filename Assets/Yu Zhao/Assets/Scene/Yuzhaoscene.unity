@@ -13938,7 +13938,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
-    m_FontSize: 60
+    m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -13956,7 +13956,11 @@ MonoBehaviour:
     the game camera perspective.
 
 
-    Mouse pulley: Zoom in and out of the scene.'
+    Mouse pulley: Zoom in and out of the scene.
+
+
+    Win
+    10 points of the game before time runs out.'
 --- !u!222 &1047795008
 CanvasRenderer:
   m_ObjectHideFlags: 0
