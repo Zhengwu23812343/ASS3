@@ -9,6 +9,7 @@ public class PlayerController1 : MonoBehaviour
     private int count;
     public TextMeshProUGUI countText;
     public GameObject winTextObject;
+    public AudioSource sound;
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +35,7 @@ public class PlayerController1 : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             count = count + 10;
+            sound.Play();
             SetCountText();
         }
     }
