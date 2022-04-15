@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Yu Zhao/Assets/Scene/Yuzhaoscene.unity
     guid: 41c899af0ec634e459f07e73c4f2d283
+  - enabled: 1
+    path: Assets/Zhiyuan Wang/Scene/ZhiyuanWangScene.unity
+    guid: f60bf8999c4f6c14b879af8c7dbd6458
   m_configObjects: {}
