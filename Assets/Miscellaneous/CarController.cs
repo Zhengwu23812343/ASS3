@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class CarController : MonoBehaviour
+using UnityEngine.UI;
+public class PlayerControl : MonoBehaviour
 {
-    // Start is called before the first frame update
+     public Text coinText;
+    
     void Start()
     {
         
