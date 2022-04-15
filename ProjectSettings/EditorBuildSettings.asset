@@ -15,9 +15,6 @@ EditorBuildSettings:
     path: Assets/Yuanzheng Li/Scene/Yuanzheng Li.unity
     guid: f087df3718f8567499fd61ffd421f898
   - enabled: 1
-    path: Assets/Yuanzheng Li/Scene/Yuanzheng Li Help.unity
-    guid: 6ba9dd1b3c116664eafae7bf78e53eec
-  - enabled: 1
     path: Assets/Zhengwu Deng/Scenes/Zhengwu Deng.unity
     guid: e7d2caec15e89eb47a8547a72cc8bb5a
   - enabled: 1
