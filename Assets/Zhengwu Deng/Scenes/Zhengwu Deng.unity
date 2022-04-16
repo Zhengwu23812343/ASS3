@@ -10160,7 +10160,9 @@ MonoBehaviour:
   m_text: 'Use W,A,S,D to control unity-chan move
 
     pickup the yellow cube to
-    add score to win!'
+    add score to win
+
+    At least 11 scores!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
