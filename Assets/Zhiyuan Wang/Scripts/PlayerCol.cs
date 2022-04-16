@@ -33,7 +33,7 @@ public class PlayerCol : MonoBehaviour
         {
             timer += Time.deltaTime;
             int time = (int)(titleTime - timer);
-            timeText.text = "CountDown:" + time;
+            timeText.text = "Time:" + time;
             if (timer >= titleTime)
             {
                 lose.SetActive(true);
