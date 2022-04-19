@@ -820,23 +820,7 @@ public class VehicleControl : MonoBehaviour
                     for (int i = 0; i < carSetting.hitGround.Length; i++)
                     {
 
-                        if (hit.collider.CompareTag(carSetting.hitGround[i].tag))
-                        {
-                            WGrounded = carSetting.hitGround[i].grounded;
-
-                            if ((brake || Mathf.Abs(hit.sidewaysSlip) > 0.5f) && speed > 1)
-                            {
-                                Particle[currentWheel].GetComponent<AudioSource>().clip = carSetting.hitGround[i].brakeSound;
-                            }
-                            else if (Particle[currentWheel].GetComponent<AudioSource>().clip != carSetting.hitGround[i].groundSound && !Particle[currentWheel].GetComponent<AudioSource>().isPlaying)
-                            {
-
-                                Particle[currentWheel].GetComponent<AudioSource>().clip = carSetting.hitGround[i].groundSound;
-                            }
-
-                            Particle[currentWheel].GetComponent<ParticleSystem>().startColor = carSetting.hitGround[i].brakeColor;
-
-                        }
+                        
 
 
                     }
