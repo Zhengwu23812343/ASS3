@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class rotator1 : MonoBehaviour
+public class Rotator1 : MonoBehaviour
 {
 	// Before rendering each frame..
 	void Update()
